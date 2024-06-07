@@ -8,8 +8,24 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>CharacterManager</RootNamespace>
     <ForceDesignerDPIUnaware>false</ForceDesignerDPIUnaware>
-    <AssemblyName>$(MSBuildProjectName)</AssemblyName>
+    <AssemblyName>DnDCharacterManager_125</AssemblyName>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\DNDCM_Common\CharacterMenuItem.cs" Link="CharacterMenuItem.cs" />
+    <Compile Include="..\DNDCM_Common\Logger.cs" Link="Logger.cs" />
+    <Compile Include="..\DNDCM_Common\Program.cs" Link="Program.cs" />
+    <Compile Include="..\DNDCM_Common\Session.cs" Link="Session.cs" />
+    <Compile Include="..\DNDCM_Common\Settings.cs" Link="Settings.cs" />
+    <Compile Include="..\DNDCM_Common\UserControls\ItemBrowserCtrl.cs" Link="UserControls\ItemBrowserCtrl.cs" />
+    <Compile Include="..\DNDCM_Common\UserControls\Spells\SpellBrowserCtrl.cs" Link="UserControls\Spells\SpellBrowserCtrl.cs" />
+    <Compile Include="..\DNDCM_Common\Utility.cs" Link="Utility.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="..\DNDCM_Common\UserControls\ItemBrowserCtrl.resx" Link="UserControls\ItemBrowserCtrl.resx" />
+    <EmbeddedResource Include="..\DNDCM_Common\UserControls\Spells\SpellBrowserCtrl.resx" Link="UserControls\Spells\SpellBrowserCtrl.resx" />
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\DnDClassLibrary\DnDClassLibrary\DnDClassLibrary.csproj" />

@@ -1,5 +1,5 @@
-﻿using DND.API;
-using DND;
+﻿using DND;
+using DND.API;
 using DND.Types;
 
 namespace CharacterManager

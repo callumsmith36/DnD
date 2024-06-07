@@ -2,5 +2,9 @@ DnDClassLibrary/.vs
 DnDClassLibrary/DnDClassLibrary/obj
 DnDClassLibrary/DnDClassLibrary/bin
 DnDCharacterManager/.vs
-DnDCharacterManager/DnDCharacterManager/obj
-DnDCharacterManager/DnDCharacterManager/bin
+DnDCharacterManager/DNDCM_100/obj
+DnDCharacterManager/DNDCM_100/bin
+DnDCharacterManager/DNDCM_125/obj
+DnDCharacterManager/DNDCM_125/bin
+*.suo
+*.user

@@ -9,6 +9,15 @@
     <RootNamespace>CharacterManager</RootNamespace>
     <ForceDesignerDPIUnaware>false</ForceDesignerDPIUnaware>
     <AssemblyName>DnDCharacterManager_100</AssemblyName>
+    <BaseOutputPath>..\build</BaseOutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
   </PropertyGroup>
 
   <ItemGroup>

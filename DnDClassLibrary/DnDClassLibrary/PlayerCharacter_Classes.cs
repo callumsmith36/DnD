@@ -97,6 +97,13 @@ namespace DND
             var c = APIReadWrite.GetClass(className);
             if (c != null)
             {
+                if (isPrimary)
+                {
+                    _savingThrows.Clear();
+                    foreach (var ability in c.SavingThrows)
+                        AddSavingThrow(ability);
+                }
+
                 if (isPrimary && _classList.Count > 0)
                 {
                     _classList.Insert(0, c);

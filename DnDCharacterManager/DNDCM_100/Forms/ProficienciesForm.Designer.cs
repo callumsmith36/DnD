@@ -129,7 +129,7 @@
             // 
             primaryClassLabel.AutoSize = true;
             primaryClassLabel.Font = new Font("Constantia", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            primaryClassLabel.Location = new Point(307, 3);
+            primaryClassLabel.Location = new Point(110, 3);
             primaryClassLabel.Name = "primaryClassLabel";
             primaryClassLabel.Size = new Size(114, 18);
             primaryClassLabel.TabIndex = 13;
@@ -141,9 +141,9 @@
             saveInfoLabel.Font = new Font("Constantia", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             saveInfoLabel.Location = new Point(6, 3);
             saveInfoLabel.Name = "saveInfoLabel";
-            saveInfoLabel.Size = new Size(295, 18);
+            saveInfoLabel.Size = new Size(98, 18);
             saveInfoLabel.TabIndex = 12;
-            saveInfoLabel.Text = "These are determined by your primary class:";
+            saveInfoLabel.Text = "Primary class:";
             // 
             // dexLabel
             // 
@@ -208,68 +208,68 @@
             // chaCheckBox
             // 
             chaCheckBox.AutoSize = true;
-            chaCheckBox.Enabled = false;
             chaCheckBox.Font = new Font("Constantia", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             chaCheckBox.Location = new Point(22, 199);
             chaCheckBox.Name = "chaCheckBox";
             chaCheckBox.Size = new Size(15, 14);
             chaCheckBox.TabIndex = 5;
             chaCheckBox.UseVisualStyleBackColor = true;
+            chaCheckBox.CheckedChanged += chaCheckBox_CheckedChanged;
             // 
             // wisCheckBox
             // 
             wisCheckBox.AutoSize = true;
-            wisCheckBox.Enabled = false;
             wisCheckBox.Font = new Font("Constantia", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             wisCheckBox.Location = new Point(22, 167);
             wisCheckBox.Name = "wisCheckBox";
             wisCheckBox.Size = new Size(15, 14);
             wisCheckBox.TabIndex = 4;
             wisCheckBox.UseVisualStyleBackColor = true;
+            wisCheckBox.CheckedChanged += wisCheckBox_CheckedChanged;
             // 
             // intCheckBox
             // 
             intCheckBox.AutoSize = true;
-            intCheckBox.Enabled = false;
             intCheckBox.Font = new Font("Constantia", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             intCheckBox.Location = new Point(22, 135);
             intCheckBox.Name = "intCheckBox";
             intCheckBox.Size = new Size(15, 14);
             intCheckBox.TabIndex = 3;
             intCheckBox.UseVisualStyleBackColor = true;
+            intCheckBox.CheckedChanged += intCheckBox_CheckedChanged;
             // 
             // conCheckBox
             // 
             conCheckBox.AutoSize = true;
-            conCheckBox.Enabled = false;
             conCheckBox.Font = new Font("Constantia", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             conCheckBox.Location = new Point(22, 103);
             conCheckBox.Name = "conCheckBox";
             conCheckBox.Size = new Size(15, 14);
             conCheckBox.TabIndex = 2;
             conCheckBox.UseVisualStyleBackColor = true;
+            conCheckBox.CheckedChanged += conCheckBox_CheckedChanged;
             // 
             // dexCheckBox
             // 
             dexCheckBox.AutoSize = true;
-            dexCheckBox.Enabled = false;
             dexCheckBox.Font = new Font("Constantia", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             dexCheckBox.Location = new Point(22, 71);
             dexCheckBox.Name = "dexCheckBox";
             dexCheckBox.Size = new Size(15, 14);
             dexCheckBox.TabIndex = 1;
             dexCheckBox.UseVisualStyleBackColor = true;
+            dexCheckBox.CheckedChanged += dexCheckBox_CheckedChanged;
             // 
             // strCheckBox
             // 
             strCheckBox.AutoSize = true;
-            strCheckBox.Enabled = false;
             strCheckBox.Font = new Font("Constantia", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             strCheckBox.Location = new Point(22, 39);
             strCheckBox.Name = "strCheckBox";
             strCheckBox.Size = new Size(15, 14);
             strCheckBox.TabIndex = 0;
             strCheckBox.UseVisualStyleBackColor = true;
+            strCheckBox.CheckedChanged += strCheckBox_CheckedChanged;
             // 
             // skillTab
             // 
@@ -293,10 +293,10 @@
             skillTab.Controls.Add(animalHandlingCtrl);
             skillTab.Controls.Add(acrobaticsCtrl);
             skillTab.Controls.Add(skillInfoLabel);
-            skillTab.Location = new Point(4, 23);
+            skillTab.Location = new Point(4, 24);
             skillTab.Name = "skillTab";
             skillTab.Padding = new Padding(3);
-            skillTab.Size = new Size(512, 360);
+            skillTab.Size = new Size(512, 359);
             skillTab.TabIndex = 1;
             skillTab.Text = "Skills";
             skillTab.UseVisualStyleBackColor = true;
@@ -567,10 +567,10 @@
             // 
             toolTab.AutoScroll = true;
             toolTab.Controls.Add(toolCheckList);
-            toolTab.Location = new Point(4, 23);
+            toolTab.Location = new Point(4, 24);
             toolTab.Name = "toolTab";
             toolTab.Padding = new Padding(3);
-            toolTab.Size = new Size(512, 360);
+            toolTab.Size = new Size(512, 359);
             toolTab.TabIndex = 2;
             toolTab.Text = "Tools";
             toolTab.UseVisualStyleBackColor = true;
@@ -597,10 +597,10 @@
             weaponTab.AutoScroll = true;
             weaponTab.Controls.Add(weaponCheckList);
             weaponTab.Controls.Add(weaponTypeCheckList);
-            weaponTab.Location = new Point(4, 23);
+            weaponTab.Location = new Point(4, 24);
             weaponTab.Name = "weaponTab";
             weaponTab.Padding = new Padding(3);
-            weaponTab.Size = new Size(512, 360);
+            weaponTab.Size = new Size(512, 359);
             weaponTab.TabIndex = 3;
             weaponTab.Text = "Weapons";
             weaponTab.UseVisualStyleBackColor = true;
@@ -642,10 +642,10 @@
             // armourTab
             // 
             armourTab.Controls.Add(armourCheckList);
-            armourTab.Location = new Point(4, 23);
+            armourTab.Location = new Point(4, 24);
             armourTab.Name = "armourTab";
             armourTab.Padding = new Padding(3);
-            armourTab.Size = new Size(512, 360);
+            armourTab.Size = new Size(512, 359);
             armourTab.TabIndex = 4;
             armourTab.Text = "Armour";
             armourTab.UseVisualStyleBackColor = true;
@@ -669,10 +669,10 @@
             // languageTab
             // 
             languageTab.Controls.Add(languageCheckList);
-            languageTab.Location = new Point(4, 23);
+            languageTab.Location = new Point(4, 24);
             languageTab.Name = "languageTab";
             languageTab.Padding = new Padding(3);
-            languageTab.Size = new Size(512, 360);
+            languageTab.Size = new Size(512, 359);
             languageTab.TabIndex = 5;
             languageTab.Text = "Languages";
             languageTab.UseVisualStyleBackColor = true;
@@ -696,10 +696,10 @@
             // vehicleTab
             // 
             vehicleTab.Controls.Add(vehicleCheckList);
-            vehicleTab.Location = new Point(4, 23);
+            vehicleTab.Location = new Point(4, 24);
             vehicleTab.Name = "vehicleTab";
             vehicleTab.Padding = new Padding(3);
-            vehicleTab.Size = new Size(512, 360);
+            vehicleTab.Size = new Size(512, 359);
             vehicleTab.TabIndex = 6;
             vehicleTab.Text = "Vehicles";
             vehicleTab.UseVisualStyleBackColor = true;

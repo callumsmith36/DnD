@@ -71,17 +71,17 @@ namespace CharacterManager
             {
                 switch (armour)
                 {
-                    case ArmourType.LightArmour:    armourCheckList.SetItemChecked(0, true); break;
-                    case ArmourType.MediumArmour:   armourCheckList.SetItemChecked(1, true); break;
-                    case ArmourType.HeavyArmour:    armourCheckList.SetItemChecked(2, true); break;
-                    case ArmourType.Shield:         armourCheckList.SetItemChecked(3, true); break;
+                    case ArmourType.LightArmour: armourCheckList.SetItemChecked(0, true); break;
+                    case ArmourType.MediumArmour: armourCheckList.SetItemChecked(1, true); break;
+                    case ArmourType.HeavyArmour: armourCheckList.SetItemChecked(2, true); break;
+                    case ArmourType.Shield: armourCheckList.SetItemChecked(3, true); break;
                     default:
                         break;
                 }
             }
 
             var vehicles = Session.Player.GetVehicleProficiencyList();
-            foreach(var vehicle in vehicles)
+            foreach (var vehicle in vehicles)
             {
                 if (vehicle == Vehicle.Land)
                     vehicleCheckList.SetItemChecked(0, true);
@@ -113,24 +113,25 @@ namespace CharacterManager
             {
                 primaryClassLabel.Text = primary.Name;
 
-                strCheckBox.Checked = primary.SavingThrows.Contains(Ability.Strength);
-                dexCheckBox.Checked = primary.SavingThrows.Contains(Ability.Dexterity);
-                conCheckBox.Checked = primary.SavingThrows.Contains(Ability.Constitution);
-                intCheckBox.Checked = primary.SavingThrows.Contains(Ability.Intelligence);
-                wisCheckBox.Checked = primary.SavingThrows.Contains(Ability.Wisdom);
-                chaCheckBox.Checked = primary.SavingThrows.Contains(Ability.Charisma);
+                strCheckBox.Enabled = !primary.SavingThrows.Contains(Ability.Strength);
+                dexCheckBox.Enabled = !primary.SavingThrows.Contains(Ability.Dexterity);
+                conCheckBox.Enabled = !primary.SavingThrows.Contains(Ability.Constitution);
+                intCheckBox.Enabled = !primary.SavingThrows.Contains(Ability.Intelligence);
+                wisCheckBox.Enabled = !primary.SavingThrows.Contains(Ability.Wisdom);
+                chaCheckBox.Enabled = !primary.SavingThrows.Contains(Ability.Charisma);
             }
             else
             {
                 primaryClassLabel.Text = string.Empty;
-
-                strCheckBox.Checked = false;
-                dexCheckBox.Checked = false;
-                conCheckBox.Checked = false;
-                intCheckBox.Checked = false;
-                wisCheckBox.Checked = false;
-                chaCheckBox.Checked = false;
             }
+
+            var savingThrows = Session.Player.GetSavingThrowList();
+            strCheckBox.Checked = savingThrows.Contains(Ability.Strength);
+            dexCheckBox.Checked = savingThrows.Contains(Ability.Dexterity);
+            conCheckBox.Checked = savingThrows.Contains(Ability.Constitution);
+            intCheckBox.Checked = savingThrows.Contains(Ability.Intelligence);
+            wisCheckBox.Checked = savingThrows.Contains(Ability.Wisdom);
+            chaCheckBox.Checked = savingThrows.Contains(Ability.Charisma);
         }
 
 
@@ -184,10 +185,10 @@ namespace CharacterManager
             ArmourType type;
             switch (e.Index)
             {
-                case 0: type = ArmourType.LightArmour;  break;
+                case 0: type = ArmourType.LightArmour; break;
                 case 1: type = ArmourType.MediumArmour; break;
-                case 2: type = ArmourType.HeavyArmour;  break;
-                case 3: type = ArmourType.Shield;       break;
+                case 2: type = ArmourType.HeavyArmour; break;
+                case 3: type = ArmourType.Shield; break;
                 default:
                     type = ArmourType.None;
                     break;
@@ -237,6 +238,72 @@ namespace CharacterManager
                 Session.Player.RemoveVehicleProficiency(vehicle);
 
             OnVehicleChanged?.Invoke();
+        }
+
+        //
+        //  strCheckBox_CheckedChanged
+        //
+        private void strCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (strCheckBox.Checked)
+                Session.Player.AddSavingThrow(Ability.Strength);
+            else
+                Session.Player.RemoveSavingThrow(Ability.Strength);
+        }
+
+        //
+        //  dexCheckBox_CheckedChanged
+        //
+        private void dexCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (dexCheckBox.Checked)
+                Session.Player.AddSavingThrow(Ability.Dexterity);
+            else
+                Session.Player.RemoveSavingThrow(Ability.Dexterity);
+        }
+
+        //
+        //  conCheckBox_CheckedChanged
+        //
+        private void conCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (conCheckBox.Checked)
+                Session.Player.AddSavingThrow(Ability.Constitution);
+            else
+                Session.Player.RemoveSavingThrow(Ability.Constitution);
+        }
+
+        //
+        //  intCheckBox_CheckedChanged
+        //
+        private void intCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (intCheckBox.Checked)
+                Session.Player.AddSavingThrow(Ability.Intelligence);
+            else
+                Session.Player.RemoveSavingThrow(Ability.Intelligence);
+        }
+
+        //
+        //  wisCheckBox_CheckedChanged
+        //
+        private void wisCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (wisCheckBox.Checked)
+                Session.Player.AddSavingThrow(Ability.Wisdom);
+            else
+                Session.Player.RemoveSavingThrow(Ability.Wisdom);
+        }
+
+        //
+        //  chaCheckBox_CheckedChanged
+        //
+        private void chaCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chaCheckBox.Checked)
+                Session.Player.AddSavingThrow(Ability.Charisma);
+            else
+                Session.Player.RemoveSavingThrow(Ability.Charisma);
         }
     }
 }

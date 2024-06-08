@@ -194,6 +194,7 @@ namespace CharacterManager
             Session.Player.OnLevelChanged += Player_OnLevelChanged;
             Session.Player.OnClassChanged += Player_OnClassChanged;
             Session.Player.OnPrimaryClassChanged += Player_OnPrimaryClassChanged;
+            Session.Player.OnSavingThrowsChanged += Player_OnSavingThrowsChanged;
             Session.Player.OnSkillProficienciesChanged += Player_OnSkillProficienciesChanged;
             Session.Player.OnFeatsChanged += Player_OnFeatsChanged;
         }

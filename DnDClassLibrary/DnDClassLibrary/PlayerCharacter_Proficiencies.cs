@@ -33,6 +33,31 @@ namespace DND
         }
 
         //
+        //  GetSavingThrowList
+        //
+        public Ability[] GetSavingThrowList()
+        {
+            return _savingThrows.ToArray();
+        }
+
+        //
+        //  AddSavingThrow
+        //
+        public void AddSavingThrow(Ability ability)
+        {
+            if (ability != Ability.None)
+                AddProficiency(ability, _savingThrows, OnSavingThrowsChanged);
+        }
+
+        //
+        //  RemoveSavingThrow
+        //
+        public bool RemoveSavingThrow(Ability ability)
+        {
+            return RemoveProficiency(ability, _savingThrows, OnSavingThrowsChanged);
+        }
+
+        //
         //  GetSkillProficiencyList
         //
         public Skill[] GetSkillProficiencyList()

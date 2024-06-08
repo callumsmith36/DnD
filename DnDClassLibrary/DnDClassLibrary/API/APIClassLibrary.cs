@@ -973,6 +973,7 @@
         public string spell_class { get; set; }
         public string spell_ability { get; set; }
         public string concentration { get; set; }
+        public int[] saving_throws { get; set; }
         public int[] skill_proficiencies { get; set; }
         public int[] skill_expertise { get; set; }
         public int[] tool_proficiencies { get; set; }
@@ -1027,6 +1028,7 @@
             spell_ability = string.Empty;
             concentration = string.Empty;
 
+            saving_throws = Array.Empty<int>();
             skill_proficiencies = Array.Empty<int>();
             skill_expertise = Array.Empty<int>();
             tool_proficiencies = Array.Empty<int>();

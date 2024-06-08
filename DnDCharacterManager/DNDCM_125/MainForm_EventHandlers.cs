@@ -949,6 +949,14 @@ namespace CharacterManager
         }
 
         //
+        //  Player_OnSavingThrowsChanged
+        //
+        private void Player_OnSavingThrowsChanged()
+        {
+            UpdateSavingThrows();
+        }
+
+        //
         //  Player_OnSkillProficienciesChanged
         //
         private void Player_OnSkillProficienciesChanged()

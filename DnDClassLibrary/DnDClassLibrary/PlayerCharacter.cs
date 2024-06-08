@@ -14,6 +14,7 @@ namespace DND
         private Dictionary<int, List<Spell>>    _preparedSpells;
         private int[]                           _spellSlotsMax;
         private int[]                           _spellSlotsLeft;
+        private List<Ability>                   _savingThrows;
         private List<Skill>                     _skillProficiencies;
         private List<Skill>                     _skillExpertise;
         private List<ToolOrKit>                 _toolProficiencies;
@@ -97,6 +98,7 @@ namespace DND
         public Action? OnFeatsChanged;
         public Action? OnClassChanged;
         public Action? OnPrimaryClassChanged;
+        public Action? OnSavingThrowsChanged;
         public Action? OnSkillProficienciesChanged;
         public Action? OnToolProficienciesChanged;
         public Action? OnWeaponProficienciesChanged;
@@ -129,6 +131,7 @@ namespace DND
             IsConcentrating = false;
             ConcentratingOn = string.Empty;
 
+            _savingThrows = new List<Ability>();
             _skillProficiencies = new List<Skill>();
             _skillExpertise = new List<Skill>();
             _toolProficiencies = new List<ToolOrKit>();
@@ -220,6 +223,14 @@ namespace DND
             ConcentratingOn = obj.concentration;
             IsConcentrating = obj.concentration.Length > 0;
 
+            _savingThrows = new List<Ability>();
+            foreach (var num in obj.saving_throws)
+            {
+                Ability ability = (Ability)num;
+                if (ability != Ability.None)
+                    AddSavingThrow(ability);
+            }
+
             _skillProficiencies = new List<Skill>();
             foreach (var num in obj.skill_proficiencies)
             {
@@ -303,6 +314,13 @@ namespace DND
 
                 int hitDice = i < obj.hit_dice_remaining.Length ? obj.hit_dice_remaining[i] : obj.class_levels[i];
                 SetHitDiceRemaining(obj.class_names[i], hitDice);
+            }
+
+            var c = GetPrimaryClass();
+            if (c != null)
+            {
+                foreach (var ability in c.SavingThrows)
+                    AddSavingThrow(ability);
             }
 
             _preparedSpells = new Dictionary<int, List<Spell>>();
@@ -404,6 +422,10 @@ namespace DND
                 _levelList.Add(pc.GetClassLevel(pcClass.Name));
                 _hitDiceRemaining[thisClass] = pc._hitDiceRemaining[pcClass];
             }
+
+            _savingThrows = new List<Ability>();
+            foreach(var ability in pc._savingThrows)
+                AddSavingThrow(ability);
 
             _skillProficiencies = new List<Skill>();
             foreach (var skill in pc._skillProficiencies)
@@ -553,8 +575,11 @@ namespace DND
 
             int mod = GetAbilityModifier(_abilityScoreMap[ability]);
 
-            var primaryClass = GetPrimaryClass();
+            /*var primaryClass = GetPrimaryClass();
             if (primaryClass != null && primaryClass.SavingThrows.Contains(ability))
+                mod += ProficiencyBonus;*/
+
+            if (_savingThrows.Contains(ability))
                 mod += ProficiencyBonus;
 
             return mod;
@@ -872,6 +897,10 @@ namespace DND
             pc.spell_class = SpellcastingClass;
             pc.spell_ability = TypeMaps.AbilityNames[SpellcastingAbility];
 
+            pc.saving_throws = new int[_savingThrows.Count];
+            for (i = 0; i < _savingThrows.Count; i++)
+                pc.saving_throws[i] = (int)_savingThrows[i];
+
             pc.skill_proficiencies = new int[_skillProficiencies.Count];
             for (i = 0; i < _skillProficiencies.Count; i++)
                 pc.skill_proficiencies[i] = (int)_skillProficiencies[i];
@@ -1084,6 +1113,7 @@ namespace DND
             if (equal)
             {
                 equal =
+                    AreEnumListsEqual(_savingThrows, other._savingThrows) &&
                     AreEnumListsEqual(_skillProficiencies, other._skillProficiencies) &&
                     AreEnumListsEqual(_skillExpertise, other._skillExpertise) &&
                     AreEnumListsEqual(_toolProficiencies, other._toolProficiencies) &&

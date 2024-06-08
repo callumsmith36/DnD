@@ -6,9 +6,12 @@ DnDCharacterManager/build
 DnDCharacterManager/release
 DnDCharacterManager/DNDCM_100/obj
 DnDCharacterManager/DNDCM_100/bin
+DnDCharacterManager/DNDCM_100/Properties
 DnDCharacterManager/DNDCM_125/obj
 DnDCharacterManager/DNDCM_125/bin
+DnDCharacterManager/DNDCM_125/Properties
 DnDCharacterManager/DNDCM_150/obj
 DnDCharacterManager/DNDCM_150/bin
+DnDCharacterManager/DNDCM_150/Properties
 *.suo
 *.user

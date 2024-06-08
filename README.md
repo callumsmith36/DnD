@@ -1,0 +1,5 @@
+This is a desktop app for tracking and managing most aspects of a D&D character, including stats, spells, inventory, and more. It uses SRD data, obtained from https://www.dnd5eapi.co, for information about spells, equipment, classes, etc, and allows users to add to this with custom entries.
+
+I've built this first version of the app using WinForms, however I am planning on recreating the UI using a different framework with the intention of making it more visually interesting and potentially cross-platform. I'm currently just evaluating which framework I want to use for this (at the moment, it will likely be either MAUI or Avalonia).
+
+Given WinForms' apparent limitations when it comes to developing apps that can adapt to multiple display DPIs (at least as far as I can tell, based on what I've read and my own experience), I've opted for now to simply have three variations of the UI, each adjusted for a different scale factor (the number appended to the project names indicates the scale in which it was designed - 100%, 125%, or 150%), with the hope that this will cover at least the majority of use cases until I implement a better solution. 

@@ -1,4 +1,16 @@
-﻿using DND;
+﻿/*********************************************************
+ *  
+ *  Name:       UserControls/Spells/SpellCtrl.cs
+ *  
+ *  Purpose:    Displaying the character's active spells
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    02/04/2024
+ * 
+ *********************************************************/
+
+using DND;
 
 namespace CharacterManager
 {

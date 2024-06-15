@@ -1,4 +1,16 @@
-﻿using DND.API;
+﻿/*********************************************************
+ *  
+ *  Name:       Items/WeaponCreateForm.cs
+ *  
+ *  Purpose:    Dialog for creating a weapon
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    12/04/2024
+ * 
+ *********************************************************/
+
+using DND.API;
 using DND.InventorySystem;
 using DND.Types;
 

@@ -1,3 +1,15 @@
+/*********************************************************
+ *  
+ *  Name:       MainForm.cs
+ *  
+ *  Purpose:    The app's main window
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    17/12/2023
+ * 
+ *********************************************************/
+
 using DND;
 using DND.API;
 using DND.Types;

@@ -1,4 +1,16 @@
-﻿using DND.API;
+﻿/*********************************************************
+ *  
+ *  Name:       UserControls/ClassSelectCtrl.cs
+ *  
+ *  Purpose:    Selecting a class and setting its level
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    06/01/2024
+ * 
+ *********************************************************/
+
+using DND.API;
 
 namespace CharacterManager
 {

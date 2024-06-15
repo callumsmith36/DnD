@@ -1,4 +1,16 @@
-﻿using DND.API;
+﻿/*********************************************************
+ *  
+ *  Name:       Class.cs
+ *  
+ *  Purpose:    Class for handling a D&D class
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    22/12/2023
+ * 
+ *********************************************************/
+
+using DND.API;
 using DND.Types;
 using System.Text.Json;
 

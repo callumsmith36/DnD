@@ -1,4 +1,17 @@
-﻿using DND;
+﻿/*********************************************************
+ *  
+ *  Name:       Spells/SpellDetailsForm.cs
+ *  
+ *  Purpose:    Dialog for displaying the details of a
+ *              spell
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    01/04/2024
+ * 
+ *********************************************************/
+
+using DND;
 
 namespace CharacterManager
 {

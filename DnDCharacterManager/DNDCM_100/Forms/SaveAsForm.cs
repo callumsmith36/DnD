@@ -1,4 +1,17 @@
-﻿using DND.API;
+﻿/*********************************************************
+ *  
+ *  Name:       SaveAsForm.cs
+ *  
+ *  Purpose:    Dialog for the user to enter a name for a
+ *              new character file
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    07/01/2024
+ * 
+ *********************************************************/
+
+using DND.API;
 
 namespace CharacterManager
 {

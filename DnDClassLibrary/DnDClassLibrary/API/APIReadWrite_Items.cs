@@ -1,4 +1,17 @@
-﻿using DND.InventorySystem;
+﻿/*********************************************************
+ *  
+ *  Name:       API/APIReadWrite_Items.cs
+ *  
+ *  Purpose:    Methods regarding D&D items for the
+ *              APIReadWrite class
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    14/04/2024
+ * 
+ *********************************************************/
+
+using DND.InventorySystem;
 using DND.Types;
 using System.Text.Json;
 

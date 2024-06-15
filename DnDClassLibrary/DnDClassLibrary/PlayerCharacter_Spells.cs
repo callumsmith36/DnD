@@ -1,4 +1,17 @@
-﻿using DND.API;
+﻿/*********************************************************
+ *  
+ *  Name:       PlayerCharacter_Spells.cs
+ *  
+ *  Purpose:    Methods regarding spells
+ *              for the PlayerCharacter class
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    22/04/2024
+ * 
+ *********************************************************/
+
+using DND.API;
 using DND.Types;
 
 namespace DND

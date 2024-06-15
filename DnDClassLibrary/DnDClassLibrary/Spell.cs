@@ -1,4 +1,16 @@
-﻿using DND.API;
+﻿/*********************************************************
+ *  
+ *  Name:       Spell.cs
+ *  
+ *  Purpose:    Class for handling a D&D spell
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    22/12/2023
+ * 
+ *********************************************************/
+
+using DND.API;
 
 namespace DND
 {

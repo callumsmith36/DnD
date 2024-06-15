@@ -1,4 +1,17 @@
-﻿using DND.InventorySystem;
+﻿/*********************************************************
+ *  
+ *  Name:       Items/ContainerCreateForm.cs
+ *  
+ *  Purpose:    Dialog for adding a new container to the
+ *              character's inventory
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    08/04/2024
+ * 
+ *********************************************************/
+
+using DND.InventorySystem;
 using DND.Types;
 
 namespace CharacterManager

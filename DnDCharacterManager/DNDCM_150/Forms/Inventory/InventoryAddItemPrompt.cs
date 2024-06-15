@@ -1,4 +1,18 @@
-﻿namespace CharacterManager
+﻿/*********************************************************
+ *  
+ *  Name:       Inventory/InventoryAddItemPrompt.cs
+ *  
+ *  Purpose:    Dialog for selecting whether to add an
+ *              item from the database or to add a
+ *              temporary item
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    14/04/2024
+ * 
+ *********************************************************/
+
+namespace CharacterManager
 {
     public partial class InventoryAddItemPrompt : Form
     {

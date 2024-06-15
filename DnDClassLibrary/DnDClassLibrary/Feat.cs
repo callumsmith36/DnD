@@ -1,4 +1,16 @@
-﻿using DND.API;
+﻿/*********************************************************
+ *  
+ *  Name:       Feat.cs
+ *  
+ *  Purpose:    Class for handling a D&D feat
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    11/04/2024
+ * 
+ *********************************************************/
+
+using DND.API;
 
 namespace DND
 {

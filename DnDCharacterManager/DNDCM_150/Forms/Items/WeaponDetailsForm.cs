@@ -1,4 +1,17 @@
-﻿using DND.InventorySystem;
+﻿/*********************************************************
+ *  
+ *  Name:       Items/WeaponDetailsForm.cs
+ *  
+ *  Purpose:    Dialog for displaying the details of
+ *              weapon
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    06/04/2024
+ * 
+ *********************************************************/
+
+using DND.InventorySystem;
 using DND.Types;
 
 namespace CharacterManager

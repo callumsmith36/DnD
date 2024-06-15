@@ -1,4 +1,16 @@
-﻿using DND.API;
+﻿/*********************************************************
+ *  
+ *  Name:       Items/ArmourCreateForm.cs
+ *  
+ *  Purpose:    Dialog for creating armour
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    20/04/2024
+ * 
+ *********************************************************/
+
+using DND.API;
 using DND.InventorySystem;
 using DND.Types;
 

@@ -1,4 +1,16 @@
-﻿using DND;
+﻿/*********************************************************
+ *  
+ *  Name:       UserControls/Spells/SkillCtrl.cs
+ *  
+ *  Purpose:    Represents a spell in the SpellBrowser
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    06/04/2024
+ * 
+ *********************************************************/
+
+using DND;
 
 namespace CharacterManager
 {

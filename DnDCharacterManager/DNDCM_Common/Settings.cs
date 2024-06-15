@@ -1,4 +1,16 @@
-﻿using DND.API;
+﻿/*********************************************************
+ *  
+ *  Name:       Settings.cs
+ *  
+ *  Purpose:    Class for handling the app's settings
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    18/05/2024
+ * 
+ *********************************************************/
+
+using DND.API;
 using System.Text.Json;
 
 namespace CharacterManager

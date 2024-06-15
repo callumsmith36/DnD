@@ -1,4 +1,17 @@
-﻿using DND;
+﻿/*********************************************************
+ *  
+ *  Name:       Spells/SpellBrowserForm.cs
+ *  
+ *  Purpose:    Dialog for browsing/selecting/deleting
+ *              spells from the database
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    01/04/2024
+ * 
+ *********************************************************/
+
+using DND;
 using DND.API;
 
 namespace CharacterManager

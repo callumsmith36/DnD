@@ -1,4 +1,17 @@
-﻿using DND.API;
+﻿/*********************************************************
+ *  
+ *  Name:       PlayerCharacter_Classes.cs
+ *  
+ *  Purpose:    Methods regarding D&D classes
+ *              for the PlayerCharacter class
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    22/04/2024
+ * 
+ *********************************************************/
+
+using DND.API;
 
 namespace DND
 {

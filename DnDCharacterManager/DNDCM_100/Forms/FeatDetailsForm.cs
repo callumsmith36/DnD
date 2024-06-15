@@ -1,4 +1,16 @@
-﻿using DND;
+﻿/*********************************************************
+ *  
+ *  Name:       FeatDetailsForm.cs
+ *  
+ *  Purpose:    Dialog for displaying the details of a feat
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    22/04/2024
+ * 
+ *********************************************************/
+
+using DND;
 
 namespace CharacterManager
 {

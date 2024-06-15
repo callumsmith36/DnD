@@ -1,4 +1,17 @@
-﻿namespace CharacterManager
+﻿/*********************************************************
+ *  
+ *  Name:       CheckListForm.cs
+ *  
+ *  Purpose:    Dialog containing checkboxes for the
+ *              given list of items
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    17/05/2024
+ * 
+ *********************************************************/
+
+namespace CharacterManager
 {
     public partial class CheckListForm : Form
     {

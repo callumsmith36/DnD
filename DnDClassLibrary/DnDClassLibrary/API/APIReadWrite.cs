@@ -1,4 +1,18 @@
-﻿using RestSharp;
+﻿/*********************************************************
+ *  
+ *  Name:       API/APIReadWrite.cs
+ *  
+ *  Purpose:    Static class for reading data from the API
+ *              and reading/writing from/to the app's data
+ *              files
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    30/12/2023
+ * 
+ *********************************************************/
+
+using RestSharp;
 using System.Text.Json;
 
 namespace DND.API

@@ -1,4 +1,17 @@
-﻿using DND.InventorySystem;
+﻿/*********************************************************
+ *  
+ *  Name:       Items/EquipmentDetailsForm.cs
+ *  
+ *  Purpose:    Dialog for displaying the details of
+ *              equipment
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    07/04/2024
+ * 
+ *********************************************************/
+
+using DND.InventorySystem;
 using DND.Types;
 
 namespace CharacterManager

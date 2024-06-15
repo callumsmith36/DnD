@@ -1,4 +1,17 @@
-﻿using DND.InventorySystem;
+﻿/*********************************************************
+ *  
+ *  Name:       PlayerCharacter_Items.cs
+ *  
+ *  Purpose:    Methods regarding items
+ *              for the PlayerCharacter class
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    22/04/2024
+ * 
+ *********************************************************/
+
+using DND.InventorySystem;
 
 namespace DND
 {

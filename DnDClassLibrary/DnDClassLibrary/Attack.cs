@@ -1,4 +1,16 @@
-﻿using DND.API;
+﻿/*********************************************************
+ *  
+ *  Name:       Attack.cs
+ *  
+ *  Purpose:    Class for handling a D&D attack
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    06/05/2024
+ * 
+ *********************************************************/
+
+using DND.API;
 using DND.Types;
 
 namespace DND

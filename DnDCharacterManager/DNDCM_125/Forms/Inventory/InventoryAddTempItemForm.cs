@@ -1,4 +1,17 @@
-﻿using DND.API;
+﻿/*********************************************************
+ *  
+ *  Name:       Inventory/InventoryAddTempItemForm.cs
+ *  
+ *  Purpose:    Dialog for adding a temporary item to
+ *              the character's inventory
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    14/04/2024
+ * 
+ *********************************************************/
+
+using DND.API;
 using DND.InventorySystem;
 using DND.Types;
 

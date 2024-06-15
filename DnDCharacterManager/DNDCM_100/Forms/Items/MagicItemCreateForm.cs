@@ -1,4 +1,16 @@
-﻿using DND.API;
+﻿/*********************************************************
+ *  
+ *  Name:       Items/MagicItemCreateForm.cs
+ *  
+ *  Purpose:    Dialog for creating a magic item
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    20/04/2024
+ * 
+ *********************************************************/
+
+using DND.API;
 using DND.InventorySystem;
 using DND.Types;
 

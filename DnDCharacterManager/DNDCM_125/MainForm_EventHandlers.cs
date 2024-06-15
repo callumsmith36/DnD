@@ -1,4 +1,16 @@
-﻿using DND;
+﻿/*********************************************************
+ *  
+ *  Name:       MainForm_EventHandlers.cs
+ *  
+ *  Purpose:    Event handlers for MainForm
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    15/04/2024
+ * 
+ *********************************************************/
+
+using DND;
 using DND.API;
 using DND.Types;
 

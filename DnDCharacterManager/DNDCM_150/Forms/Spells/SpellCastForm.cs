@@ -1,5 +1,17 @@
-﻿using DND;
-using System.DirectoryServices.ActiveDirectory;
+﻿/*********************************************************
+ *  
+ *  Name:       Spells/SpellCastForm.cs
+ *  
+ *  Purpose:    Dialog for selecting the level at which
+ *              to cast a spell
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    01/04/2024
+ * 
+ *********************************************************/
+
+using DND;
 
 namespace CharacterManager
 {

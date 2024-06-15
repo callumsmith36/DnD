@@ -1,4 +1,17 @@
-﻿using DND.API;
+﻿/*********************************************************
+ *  
+ *  Name:       InventorySystem/InventoryObjectCollection.cs
+ *  
+ *  Purpose:    Class for storing and manipulating a
+ *              collection of D&D items (InventoryObjects)
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    30/01/2024
+ * 
+ *********************************************************/
+
+using DND.API;
 using DND.Types;
 
 namespace DND.InventorySystem

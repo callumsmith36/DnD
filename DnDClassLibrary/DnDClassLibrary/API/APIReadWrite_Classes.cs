@@ -1,4 +1,17 @@
-﻿using System.Text.Json;
+﻿/*********************************************************
+ *  
+ *  Name:       API/APIReadWrite_Classes.cs
+ *  
+ *  Purpose:    Methods regarding D&D classes for the
+ *              APIReadWrite class
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    14/04/2024
+ * 
+ *********************************************************/
+
+using System.Text.Json;
 
 namespace DND.API
 {

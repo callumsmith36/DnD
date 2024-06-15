@@ -1,5 +1,16 @@
-﻿using DND;
-using DND.Types;
+﻿/*********************************************************
+ *  
+ *  Name:       UserControls/AttackCtrl.cs
+ *  
+ *  Purpose:    Displaying attacks
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    06/05/2024
+ * 
+ *********************************************************/
+
+using DND;
 
 namespace CharacterManager
 {

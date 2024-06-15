@@ -1,4 +1,19 @@
-﻿namespace DND.API
+﻿/*********************************************************
+ *  
+ *  Name:       API/APIClassLibrary.cs
+ *  
+ *  Purpose:    A series of classes based on how data is
+ *              stored in the API. These are essentially
+ *              just carriers for transferring data
+ *              to/from the API or data files.
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    30/12/2023
+ * 
+ *********************************************************/
+
+namespace DND.API
 {
     /********************************
         APIReference

@@ -1,4 +1,17 @@
-﻿using DND.API;
+﻿/*********************************************************
+ *  
+ *  Name:       InventorySystem/InventoryObject.cs
+ *  
+ *  Purpose:    Base class for all D&D items (equipment
+ *              and magic items)
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    17/03/2024
+ * 
+ *********************************************************/
+
+using DND.API;
 using DND.Types;
 
 namespace DND.InventorySystem

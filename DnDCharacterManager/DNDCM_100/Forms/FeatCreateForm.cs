@@ -1,4 +1,16 @@
-﻿using DND;
+﻿/*********************************************************
+ *  
+ *  Name:       FeatCreateForm.cs
+ *  
+ *  Purpose:    Dialog for adding a feat
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    21/04/2024
+ * 
+ *********************************************************/
+
+using DND;
 
 namespace CharacterManager
 {

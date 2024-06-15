@@ -1,4 +1,16 @@
-﻿using DND.API;
+﻿/*********************************************************
+ *  
+ *  Name:       InventorySystem/Inventory.cs
+ *  
+ *  Purpose:    Class representing a player's inventory
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    30/01/2024
+ * 
+ *********************************************************/
+
+using DND.API;
 
 namespace DND.InventorySystem
 {

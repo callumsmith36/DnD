@@ -1,4 +1,17 @@
-﻿using DND;
+﻿/*********************************************************
+ *  
+ *  Name:       ProficienciesForm.cs
+ *  
+ *  Purpose:    Dialog for setting saving throws and
+ *              proficiencies
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    27/04/2024
+ * 
+ *********************************************************/
+
+using DND;
 using DND.Types;
 
 namespace CharacterManager

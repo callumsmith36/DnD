@@ -1,4 +1,16 @@
-﻿using DND.InventorySystem;
+﻿/*********************************************************
+ *  
+ *  Name:       Items/ArmourDetailsForm.cs
+ *  
+ *  Purpose:    Dialog for displaying the details of armour
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    07/04/2024
+ * 
+ *********************************************************/
+
+using DND.InventorySystem;
 using DND.Types;
 
 namespace CharacterManager

@@ -1,4 +1,19 @@
-﻿using DND.API;
+﻿/*********************************************************
+ *  
+ *  Name:       InventorySystem/Container.cs
+ *  
+ *  Purpose:    Class for storing InventoryObjects. It
+ *              can reference an InventoryObject if it
+ *              represents an item (such as a backpack or
+ *              chest).
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    22/03/2024
+ * 
+ *********************************************************/
+
+using DND.API;
 using DND.Types;
 
 namespace DND.InventorySystem

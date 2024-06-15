@@ -1,4 +1,17 @@
-﻿namespace CharacterManager
+﻿/*********************************************************
+ *  
+ *  Name:       Classes/ClassSelectForm.cs
+ *  
+ *  Purpose:    Dialog for setting the character's
+ *              classes and levels
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    01/04/2024
+ * 
+ *********************************************************/
+
+namespace CharacterManager
 {
     public partial class ClassSelectForm : Form
     {

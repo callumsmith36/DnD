@@ -1,4 +1,17 @@
-﻿using DND.Types;
+﻿/*********************************************************
+ *  
+ *  Name:       PlayerCharacter_Proficiencies.cs
+ *  
+ *  Purpose:    Methods regarding proficiencies
+ *              for the PlayerCharacter class
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    27/04/2024
+ * 
+ *********************************************************/
+
+using DND.Types;
 
 namespace DND
 {

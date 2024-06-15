@@ -1,4 +1,17 @@
-﻿using DND;
+﻿/*********************************************************
+ *  
+ *  Name:       UserControls/AbilityCtrl.cs
+ *  
+ *  Purpose:    Setting ability scores and displaying
+ *              the corresponding modifier
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    24/12/2023
+ * 
+ *********************************************************/
+
+using DND;
 using DND.Types;
 using System.ComponentModel;
 

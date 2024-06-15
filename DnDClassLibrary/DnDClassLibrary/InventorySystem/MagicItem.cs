@@ -1,4 +1,16 @@
-﻿using DND.API;
+﻿/*********************************************************
+ *  
+ *  Name:       InventorySystem/MagicItem.cs
+ *  
+ *  Purpose:    Class representing a D&D magic item
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    30/01/2024
+ * 
+ *********************************************************/
+
+using DND.API;
 using DND.Types;
 
 namespace DND.InventorySystem

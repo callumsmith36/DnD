@@ -1,3 +1,14 @@
+/*********************************************************
+ *  
+ *  Name:       Session.cs
+ *  
+ *  Purpose:    Entry point for the application
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    17/12/2023
+ * 
+ *********************************************************/
 
 namespace CharacterManager
 {

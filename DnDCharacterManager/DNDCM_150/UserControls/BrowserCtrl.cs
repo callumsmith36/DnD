@@ -1,4 +1,17 @@
-﻿namespace CharacterManager
+﻿/*********************************************************
+ *  
+ *  Name:       UserControls/BrowserCtrl.cs
+ *  
+ *  Purpose:    Base class for controls in an object
+ *              browser
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    03/04/2024
+ * 
+ *********************************************************/
+
+namespace CharacterManager
 {
     public abstract partial class BrowserCtrl : UserControl
     {

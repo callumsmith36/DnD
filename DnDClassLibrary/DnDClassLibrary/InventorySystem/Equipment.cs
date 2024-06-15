@@ -1,4 +1,18 @@
-﻿using DND.API;
+﻿/*********************************************************
+ *  
+ *  Name:       InventorySystem/Equipment.cs
+ *  
+ *  Purpose:    Class representing D&D equipment, plus
+ *              various classes that derive from it which
+ *              represent different equipment types.
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    30/01/2024
+ * 
+ *********************************************************/
+
+using DND.API;
 using DND.Types;
 
 namespace DND.InventorySystem

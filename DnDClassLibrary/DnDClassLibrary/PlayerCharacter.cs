@@ -1,4 +1,16 @@
-﻿using DND.API;
+﻿/*********************************************************
+ *  
+ *  Name:       PlayerCharacter.cs
+ *  
+ *  Purpose:    Class for handling a player character
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    22/12/2023
+ * 
+ *********************************************************/
+
+using DND.API;
 using DND.InventorySystem;
 using DND.Types;
 

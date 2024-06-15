@@ -1,4 +1,16 @@
-﻿using DND.InventorySystem;
+﻿/*********************************************************
+ *  
+ *  Name:       UserControls/Inventory/InventoryItemCtrl.cs
+ *  
+ *  Purpose:    Represents an item in the ItemBrowser
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    01/04/2024
+ * 
+ *********************************************************/
+
+using DND.InventorySystem;
 using DND.Types;
 
 namespace CharacterManager

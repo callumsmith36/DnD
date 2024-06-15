@@ -1,4 +1,16 @@
-﻿using DND;
+﻿/*********************************************************
+ *  
+ *  Name:       AttackCreateForm.cs
+ *  
+ *  Purpose:    Dialog for adding an attack
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    06/05/2024
+ * 
+ *********************************************************/
+
+using DND;
 using DND.Types;
 
 namespace CharacterManager

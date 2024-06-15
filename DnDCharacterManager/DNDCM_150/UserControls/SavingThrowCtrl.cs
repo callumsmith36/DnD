@@ -1,4 +1,16 @@
-﻿using DND.Types;
+﻿/*********************************************************
+ *  
+ *  Name:       UserControls/SavingThrowCtrl.cs
+ *  
+ *  Purpose:    Displaying saving throws
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    21/01/2024
+ * 
+ *********************************************************/
+
+using DND.Types;
 using System.ComponentModel;
 
 namespace CharacterManager

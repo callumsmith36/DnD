@@ -1,4 +1,18 @@
-﻿using DND.API;
+﻿/*********************************************************
+ *  
+ *  Name:       Global.cs
+ *  
+ *  Purpose:    Defines DNDReference (base class for
+ *              numerous other D&D objects), and contains
+ *              the DND.Types namespace.
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    22/12/2023
+ * 
+ *********************************************************/
+
+using DND.API;
 
 namespace DND
 {
@@ -121,11 +135,13 @@ namespace DND
     }
 
 
-    /****************************
+    /**********************************
 
         Namespace: Types
 
-    ****************************/
+        Enums and maps for D&D types
+
+    **********************************/
     namespace Types
     {
         public enum Skill

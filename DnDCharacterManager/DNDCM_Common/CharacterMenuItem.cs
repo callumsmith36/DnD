@@ -1,4 +1,17 @@
-﻿using DND.API;
+﻿/*********************************************************
+ *  
+ *  Name:       CharacterMenuItem.cs
+ *  
+ *  Purpose:    Menu item for selecting characters in
+ *              the file menu
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    07/01/2024
+ * 
+ *********************************************************/
+
+using DND.API;
 
 namespace CharacterManager
 {

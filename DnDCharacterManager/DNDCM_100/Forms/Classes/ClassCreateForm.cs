@@ -1,4 +1,16 @@
-﻿using DND;
+﻿/*********************************************************
+ *  
+ *  Name:       Classes/ClassCreateForm.cs
+ *  
+ *  Purpose:    Dialog for creating a custom class
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    01/04/2024
+ * 
+ *********************************************************/
+
+using DND;
 using DND.API;
 using DND.Types;
 

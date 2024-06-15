@@ -1,4 +1,17 @@
-﻿using DND.API;
+﻿/*********************************************************
+ *  
+ *  Name:       Items/ItemBrowserForm.cs
+ *  
+ *  Purpose:    Dialog for browsing/adding/deleting items
+ *              from the database
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    08/04/2024
+ * 
+ *********************************************************/
+
+using DND.API;
 using DND.InventorySystem;
 using DND.Types;
 

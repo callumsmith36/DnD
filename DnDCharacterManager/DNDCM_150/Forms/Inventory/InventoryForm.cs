@@ -1,4 +1,17 @@
-﻿using DND.InventorySystem;
+﻿/*********************************************************
+ *  
+ *  Name:       Inventory/InventoryForm.cs
+ *  
+ *  Purpose:    Dialog for displaying and managing the
+ *              character's inventory
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    14/04/2024
+ * 
+ *********************************************************/
+
+using DND.InventorySystem;
 using DND.Types;
 
 namespace CharacterManager

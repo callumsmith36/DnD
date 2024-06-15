@@ -1,5 +1,18 @@
-﻿using DND.API;
+﻿/*********************************************************
+ *  
+ *  Name:       Session.cs
+ *  
+ *  Purpose:    Class for managing the app's active
+ *              session
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    27/12/2023
+ * 
+ *********************************************************/
+
 using DND;
+using DND.API;
 using System.Text.Json;
 
 namespace CharacterManager
@@ -14,7 +27,7 @@ namespace CharacterManager
         public static string            ActiveFile      { get; private set; }
         public static string            LogFile         { get; private set; }
 
-        public static bool IsInitialised    { get; private set; } = false;
+        public static bool IsInitialised { get; private set; } = false;
 
         public static Action? OnCharacterChanged;
 

@@ -1,4 +1,16 @@
-﻿using DND.Types;
+﻿/*********************************************************
+ *  
+ *  Name:       UserControls/SkillCtrl.cs
+ *  
+ *  Purpose:    Displaying skills
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    21/01/2024
+ * 
+ *********************************************************/
+
+using DND.Types;
 using System.ComponentModel;
 
 namespace CharacterManager

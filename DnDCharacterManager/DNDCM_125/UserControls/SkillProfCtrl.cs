@@ -1,4 +1,16 @@
-﻿using DND.Types;
+﻿/*********************************************************
+ *  
+ *  Name:       UserControls/SkillProfCtrl.cs
+ *  
+ *  Purpose:    Setting skill proficiencies
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    27/04/2024
+ * 
+ *********************************************************/
+
+using DND.Types;
 using System.ComponentModel;
 
 namespace CharacterManager

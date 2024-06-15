@@ -1,4 +1,16 @@
-﻿using DND.API;
+﻿/*********************************************************
+ *  
+ *  Name:       UserControls/ItemBrowserCtrl.cs
+ *  
+ *  Purpose:    Represents an item in the ItemBrowser
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    06/04/2024
+ * 
+ *********************************************************/
+
+using DND.API;
 using DND.InventorySystem;
 using DND.Types;
 

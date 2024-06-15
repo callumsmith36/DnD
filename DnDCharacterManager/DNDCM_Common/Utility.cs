@@ -1,4 +1,17 @@
-﻿namespace CharacterManager
+﻿/*********************************************************
+ *  
+ *  Name:       Utility.cs
+ *  
+ *  Purpose:    Various general routines for
+ *              processing/manipulating data
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    07/01/2024
+ * 
+ *********************************************************/
+
+namespace CharacterManager
 {
     internal static class Utility
     {

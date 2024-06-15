@@ -1,4 +1,17 @@
-﻿using DND.InventorySystem;
+﻿/*********************************************************
+ *  
+ *  Name:       Items/MagicItemDetailsForm.cs
+ *  
+ *  Purpose:    Dialog for displaying the details of a
+ *              magic item
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    07/04/2024
+ * 
+ *********************************************************/
+
+using DND.InventorySystem;
 
 namespace CharacterManager
 {

@@ -1,4 +1,16 @@
-﻿using DND;
+﻿/*********************************************************
+ *  
+ *  Name:       UserControls/Spells/SpellSlotNumCtrl.cs
+ *  
+ *  Purpose:    Controlling remaining/total spell slots
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    02/04/2024
+ * 
+ *********************************************************/
+
+using DND;
 using System.ComponentModel;
 
 namespace CharacterManager

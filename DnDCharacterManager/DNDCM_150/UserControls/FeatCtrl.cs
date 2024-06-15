@@ -1,4 +1,16 @@
-﻿using DND;
+﻿/*********************************************************
+ *  
+ *  Name:       UserControls/FeatCtrl.cs
+ *  
+ *  Purpose:    Displaying and tracking feats
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    21/04/2024
+ * 
+ *********************************************************/
+
+using DND;
 
 namespace CharacterManager
 {

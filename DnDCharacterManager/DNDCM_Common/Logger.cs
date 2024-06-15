@@ -1,4 +1,16 @@
-﻿namespace CharacterManager
+﻿/*********************************************************
+ *  
+ *  Name:       Session.cs
+ *  
+ *  Purpose:    Class for writing to a log file
+ *  
+ *  Author:     CS
+ *  
+ *  Created:    20/01/2024
+ * 
+ *********************************************************/
+
+namespace CharacterManager
 {
     internal static class Logger
     {
